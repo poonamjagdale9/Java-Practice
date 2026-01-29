@@ -17,11 +17,24 @@ public class TwodimensionalArray {
 
         // approch 2
 
-        int b[][]={ {100,200},
-                {300,400},
-                {500,600}
-
+        int b[][]= {{100, 200},
+                {300, 400},
+                {500, 600}
         };
-    }
+        System.out.println("lenght of rows" + b.length); // will give us rows
+        System.out.println("lenght od colums" + a[0].length); // will give us columns of 0 row
+
+        // how to read values from an array
+      //  System.out.println(a[2][1]); //600 we need to pass index number index will always start with 0
+
+        // how to read all the data all the rows all the columns
+
+        for(int row=0; row<=2;row++){
+            for (int clm =0; clm<=1;clm++){
+                System.out.println(a[row][clm]);
+            }
+        }
+
+        }
 }
 
