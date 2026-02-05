@@ -36,7 +36,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortingElimentsinArray">
+  <component name="RunManager" selected="Application.SortingStrings">
     <configuration name="CountTheDuplicateValuesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayConcept.CountTheDuplicateValuesInArray" />
       <module name="JavaPractice2" />
@@ -63,8 +63,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleDimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.SingleDimensionalArray" />
+    <configuration name="SortingElimentsinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcept.SortingElimentsinArray" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingElimentsinArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.SortingElimentsinArray" />
+    <configuration name="SortingStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcept.SortingStrings" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingStrings" />
         <item itemvalue="Application.SortingElimentsinArray" />
         <item itemvalue="Application.CountTheDuplicateValuesInArray" />
         <item itemvalue="Application.ObjectArray" />
         <item itemvalue="Application.TwodimensionalArray" />
-        <item itemvalue="Application.SingleDimensionalArray" />
       </list>
     </recent_temporary>
   </component>

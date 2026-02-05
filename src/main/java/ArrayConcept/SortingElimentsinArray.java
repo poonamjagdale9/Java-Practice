@@ -16,7 +16,7 @@ public class SortingElimentsinArray {
 
        System.out.println("After sorting");
         Arrays.sort(a);
-        System.out.println(Arrays.toString(a)); 
+        System.out.println(Arrays.toString(a));
 
     }
 }
