@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9ca09d2-b22a-452a-9770-55db1bdd2207" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingElimentsinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingElimentsinArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortingStrings">
+  <component name="RunManager" selected="Application.TakingInputFromKeyBoard">
     <configuration name="CountTheDuplicateValuesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayConcept.CountTheDuplicateValuesInArray" />
       <module name="JavaPractice2" />
@@ -50,8 +50,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.ObjectArray" />
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcept.ReverseArray" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwodimensionalArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.TwodimensionalArray" />
+    <configuration name="TakingInputFromKeyBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcept.TakingInputFromKeyBoard" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakingInputFromKeyBoard" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.SortingStrings" />
         <item itemvalue="Application.SortingElimentsinArray" />
         <item itemvalue="Application.CountTheDuplicateValuesInArray" />
-        <item itemvalue="Application.ObjectArray" />
-        <item itemvalue="Application.TwodimensionalArray" />
       </list>
     </recent_temporary>
   </component>
