@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a9ca09d2-b22a-452a-9770-55db1bdd2207" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayConcept/SortingStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ArrayConcept/TakingInputFromKeyBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ArrayConcept/TakingInputFromKeyBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +36,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TakingInputFromKeyBoard">
-    <configuration name="CountTheDuplicateValuesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.CountTheDuplicateValuesInArray" />
-      <module name="JavaPractice2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ArrayConcept.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TakingMultipleInputsfromConsol">
     <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayConcept.ReverseArray" />
       <module name="JavaPractice2" />
@@ -102,13 +89,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TakingMultipleInputsfromConsol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayConcept.TakingMultipleInputsfromConsol" />
+      <module name="JavaPractice2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArrayConcept.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TakingMultipleInputsfromConsol" />
         <item itemvalue="Application.TakingInputFromKeyBoard" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.SortingStrings" />
         <item itemvalue="Application.SortingElimentsinArray" />
-        <item itemvalue="Application.CountTheDuplicateValuesInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -133,5 +133,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaPractice2$TakingMultipleInputsfromConsol.ic" NAME="TakingMultipleInputsfromConsol Coverage Results" MODIFIED="1770412208932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ArrayConcept.*</FILTER>
+    </SUITE>
   </component>
 </project>

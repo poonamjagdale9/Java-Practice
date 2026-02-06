@@ -20,6 +20,14 @@ public class TakingInputFromKeyBoard {
         // even if you enter the int number system will convert it to the double
         System.out.println("user entered "+ d);
 
+        // To take String input we do not have nextString method
+        //instead we use .next only
+        System.out.println("Please enter the city");
+        String city = sc.next();
+        System.out.println("your city name is " + city);
+
+
+        // we can take multiple values as well
 
     }
 }
