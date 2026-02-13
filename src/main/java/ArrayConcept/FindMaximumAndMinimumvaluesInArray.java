@@ -22,6 +22,6 @@ public class FindMaximumAndMinimumvaluesInArray {
             }
         }
         System.out.println("minimum value of Array is ...."+ min);
-        
+
     }
 }
