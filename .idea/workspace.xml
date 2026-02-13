@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ca09d2-b22a-452a-9770-55db1bdd2207" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringConcept/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringConcept/StringMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindMaximumAndMinimumvaluesInArray">
+  <component name="RunManager" selected="Application.StringMethods">
     <configuration name="FindMaximumAndMinimumvaluesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayConcept.FindMaximumAndMinimumvaluesInArray" />
       <module name="JavaPractice2" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TakingInputFromKeyBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayConcept.TakingInputFromKeyBoard" />
+    <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringConcept.StringMethods" />
       <module name="JavaPractice2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayConcept.*" />
+          <option name="PATTERN" value="StringConcept.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringMethods" />
         <item itemvalue="Application.FindMaximumAndMinimumvaluesInArray" />
         <item itemvalue="Application.FindMissingNumberInArray" />
         <item itemvalue="Application.ReadingAndWritingDataIntoArray" />
         <item itemvalue="Application.TakingMultipleInputsfromConsol" />
-        <item itemvalue="Application.TakingInputFromKeyBoard" />
       </list>
     </recent_temporary>
   </component>
