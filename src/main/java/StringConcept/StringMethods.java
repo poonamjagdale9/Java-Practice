@@ -11,7 +11,7 @@ public class StringMethods {
 
         //concat() -- joining the method
 
-        String s1 ="welcomw";
+        String s1 ="welcome";
         String s2 ="to Java";
         String s3 ="Automation";
 
@@ -38,5 +38,31 @@ public class StringMethods {
         System.out.println(l.trim());
         System.out.println("After triming the stream value is :"+ l.trim().length());
 
+        //charAT() - returns character from string based on index
+        //index starts from 0
+        s ="Welcome";
+
+        System.out.println(s.charAt(3)); // it will return c
+        System.out.println(s.charAt(0)); // it will return W
+
+        // contains() always returns true or false
+        System.out.println(s.contains("Wel")); // True
+        System.out.println(s.contains("com")); // true
+        System.out.println(s.contains("wel")); // false string is case sensitive
+        System.out.println(s.contains("COM")); // False
+
+        //equals and equalsIgnorCase
+         s= "Welcome";
+         s1 = "welcome";
+        System.out.println(s==s1); // false
+         System.out.println(s.equals(s1)); // false case sensitive
+        System.out.println(s.equalsIgnoreCase(s1)); // true
+
+        //replace() - replace the sigle or multiple characters in a string
+        s ="welcome to selenium java selenium python selenium c#";
+        System.out.println(s.replace('e', 'X'));
+        // output - wXlcomX to sXlXnium java sXlXnium python sXlXnium c#
+
+        System.out.println(s.replace("selenium", "Playwright"));
     }
 }
