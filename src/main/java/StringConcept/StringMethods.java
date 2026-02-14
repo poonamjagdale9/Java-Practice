@@ -1,5 +1,7 @@
 package StringConcept;
 
+import java.util.Arrays;
+
 public class StringMethods {
     public static void main(String args[]){
         String s= "Welcome";
@@ -64,5 +66,31 @@ public class StringMethods {
         // output - wXlcomX to sXlXnium java sXlXnium python sXlXnium c#
 
         System.out.println(s.replace("selenium", "Playwright"));
+
+        //substring() - extract substring from main string
+        // starting index =0
+        // ending index = always +1
+        s = "selenium";
+
+        System.out.println(s.substring(0,4)); //sele
+        System.out.println(s.substring(2,6));// leni
+
+        //toUpperCase()  toLowerCase()
+        s= "Welcome";
+        System.out.println(s.toUpperCase()); // WELCOME
+        System.out.println(s.toLowerCase()); // welcome
+
+        // split() most important 
+        // spit() method will split the string till annotation
+
+        s="abc@gmail.com";
+        String a[] =s.split("@");
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+        System.out.println(Arrays.toString(a)); // will print the string
+
+
+
+
     }
 }
