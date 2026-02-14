@@ -80,7 +80,7 @@ public class StringMethods {
         System.out.println(s.toUpperCase()); // WELCOME
         System.out.println(s.toLowerCase()); // welcome
 
-        // split() most important 
+        // split() most important
         // spit() method will split the string till annotation
 
         s="abc@gmail.com";
@@ -89,6 +89,10 @@ public class StringMethods {
         System.out.println(a[1]);
         System.out.println(Arrays.toString(a)); // will print the string
 
+        //ex1
+        String amount ="£15,20,55"; // we need to get 152055
+        System.out.println(amount.replace("£",""));
+        System.out.println(amount.replace("£","").replace(",", ""));
 
 
 
