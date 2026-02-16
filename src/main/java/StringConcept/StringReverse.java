@@ -11,5 +11,21 @@ public class StringReverse {
             rev= rev+s.charAt(i);
        }
        System.out.println("reverse string is :" + rev);
+
+       // Approch 2 without using string methos
+        // first we need to convert string into char array
+
+        String f= "Mango";
+        String rev1 ="";
+
+        char a []= f.toCharArray(); // it will return array
+
+        for(int i= a.length-1; i>=0; i--){
+
+            rev1= rev1+a[i];
+        }
+        System.out.println("Reverse value is: " + rev1);
+
+
     }
 }
