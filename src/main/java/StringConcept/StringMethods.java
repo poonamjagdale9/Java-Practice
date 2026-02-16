@@ -114,8 +114,17 @@ public class StringMethods {
         System.out.println(ar[1]);
 
         // in split method we can not use * % ^ & as a delimeters
-        
 
+        //ex4
+        String name ="John kenedy";
+        // without using equalIgnorecase
+        // we need to check john is present in the string or not
+        //System.out.println(name.contains("john");// will be false
+        System.out.println(name.replace('J', 'j').contains("john"));
+
+        //2
+        System.out.println(name.toLowerCase().contains("john"));
+        
 
 
 
