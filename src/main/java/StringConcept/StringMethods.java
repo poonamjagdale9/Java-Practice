@@ -105,6 +105,22 @@ public class StringMethods {
         System.out.println(arr2[0]);
         System.out.println(arr2[1]);
 
+        // We can split based on the string also
+
+        s= "abc 123";
+        String ar[]= s.split(" ");
+        System.out.println(Arrays.toString(ar));
+        System.out.println(ar[0]);
+        System.out.println(ar[1]);
+
+        // in split method we can not use * % ^ & as a delimeters
+        
+
+
+
+
+
+
 
 
 
