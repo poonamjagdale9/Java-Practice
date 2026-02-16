@@ -83,7 +83,7 @@ public class StringMethods {
         // split() most important
         // spit() method will split the string till annotation
 
-        s="abc@gmail.com";
+        s="abc@gmail.com";    // @ is daily meter
         String a[] =s.split("@");
         System.out.println(a[0]);
         System.out.println(a[1]);
@@ -93,6 +93,20 @@ public class StringMethods {
         String amount ="£15,20,55"; // we need to get 152055
         System.out.println(amount.replace("£",""));
         System.out.println(amount.replace("£","").replace(",", ""));
+
+        //ex2 Split aal the values
+        s= "abc,123@xyz";
+        String arr1 []= s.split(","); // it will separate abc 123@xyz
+        System.out.println(Arrays.toString(arr1)); // [abc, 123@xyz]
+        String arr2[]= arr1[1].split("@"); // it will split 123 xyz
+        System.out.println(Arrays.toString(arr2)); // [123, xyz]
+
+        System.out.println(arr1[0]);
+        System.out.println(arr2[0]);
+        System.out.println(arr2[1]);
+
+
+
 
 
 
