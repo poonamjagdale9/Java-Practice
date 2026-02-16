@@ -124,7 +124,7 @@ public class StringMethods {
 
         //2
         System.out.println(name.toLowerCase().contains("john"));
-        
+
 
 
 
