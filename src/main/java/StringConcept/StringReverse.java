@@ -29,8 +29,14 @@ public class StringReverse {
         // we can use stringBuffer and StringBuilder methods
         //in stringBuffer and Builder we can not declare the value
         // directly as we declare in the string e.g String s= "Welcome"
+        // String is imutable object
+        //StringBuffer and StringBuilders are mutable objects
+
+
 
         StringBuffer sb = new StringBuffer("Welcome");
-
+        System.out.println(sb.reverse());
+        // we have direct method to reverse the String
+        
     }
 }
