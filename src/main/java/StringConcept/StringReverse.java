@@ -37,6 +37,10 @@ public class StringReverse {
         StringBuffer sb = new StringBuffer("Welcome");
         System.out.println(sb.reverse());
         // we have direct method to reverse the String
-        
+        // we can use StringBuilder as well
+
+        StringBuilder SB= new StringBuilder("Selenium");
+        System.out.println(SB.reverse());
+
     }
 }
