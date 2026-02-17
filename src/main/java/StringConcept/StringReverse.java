@@ -26,6 +26,11 @@ public class StringReverse {
         }
         System.out.println("Reverse value is: " + rev1);
 
+        // we can use stringBuffer and StringBuilder methods
+        //in stringBuffer and Builder we can not declare the value
+        // directly as we declare in the string e.g String s= "Welcome"
+
+        StringBuffer sb = new StringBuffer("Welcome");
 
     }
 }
