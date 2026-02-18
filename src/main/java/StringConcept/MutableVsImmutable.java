@@ -15,5 +15,19 @@ public class MutableVsImmutable {
         System.out.println("Before sorting the array" + Arrays.toString(a));
         Arrays.sort(a);
         System.out.println("After sorting the Array" + Arrays.toString(a));
+
+        // Immutable
+        String s= "Welcome";
+
+        System.out.println(s); // welcome
+
+        s.concat("to Java"); // if you want to get concatinate value you need to store in to other variable
+        String concat = s.concat(" to Java"); // then only it will give you new value after concatination
+
+        System.out.println(s); // Welcome --> Immutable - we can not change the value
+        System.out.println(concat);
+
+
+
     }
 }
