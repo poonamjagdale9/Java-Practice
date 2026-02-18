@@ -42,5 +42,10 @@ public class StringReverse {
         StringBuilder SB= new StringBuilder("Selenium");
         System.out.println(SB.reverse());
 
+        // What is mutability and immutable
+        // mutable means we can change
+        // immutable means we can not change
+        // String is immutable and String Buffer and Builder is mutable
+
     }
 }
